@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2? family= Anek+Latin & family= Fascinate & family= Oswald:wght@700 & display=swap');
+
+
+
+body {
+    
+    background-color: rgb(69, 74, 82);
+    background-image:url("../image/fondopag.jpg");
+    text-align:center;
+    justify-content: center;
+    
+
+    margin: top;
+    padding: 0;
+    position: 50px;
+    
+    font-size: 2rem;
+}
+
+
+html {
+    font-size: 15px;
+    height: 100%;
+}
+
+#container{
+    background-image: url("../image/flores\ footer.jpg");
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-position: left;
+    background: #fff;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 999px;
+   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+nav ul li{
+    padding:50px 10px ;
+    display: inline-block;
+    margin-top: auto;
+    align-items:initial;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    cursor: pointer;
+    letter-spacing: 7px;
+    font-size: medium;
+  
+}
+
+
+.flex-container{ 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:initial; 
+    letter-spacing: 5px;
+}
+
+.flex-container div{
+    flex-basis: 100%;
+    margin: 5px;
+    height: 10px;
+}
+
+
+
+div{
+    background: none;
+    
+}
+
+/* Galeria */
+
+.container {
+    background: none;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    grid-template-rows: minmax(auto-fill,auto);
+    gap: 20px;
+    min-height: 576px;
+    padding: 20px;
+    align-items:center;
+}
+
+.cel {
+    background: none;
+    display: grid;
+    margin-top: 10px;
+    height: 400px;
+    justify-items: center;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(1, 2fr);
+    gap: 20px;
+    row-gap: 10px;
+    white-space: 5px;
+    border-radius: 100px;
+}
+
+.frascos{
+    background:none;
+    display:grid; 
+    margin-top: 50px;
+    height: 500px;
+    justify-items: center;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(1, 2fr);
+    gap: 50px;
+    row-gap: 25px;
+    white-space: 70%;
+    border-radius: 10px;
+    
+}
+
+.barbacoa{
+    background: none;
+    display: grid;
+    margin-top:  50px;
+    height: 300px;
+    justify-items: center;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(1, 2fr);
+    gap: 50px;
+    row-gap: 25px;
+    white-space: 70%;
+    border-radius: 10px;
+}
+
+.lanas{
+    background: none;
+    display: grid;
+    margin-top:  50px;
+    height: 300px;
+    justify-items: center;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(1, 2fr);
+    gap: 50px;
+    row-gap: 25px;
+    white-space: 70%;
+    border-radius: 10px;
+
+}
+
+/* comunicate */ 
+
+iframe{
+    display: flex;
+    justify-content: center;
+    margin-top:  15%;
+    width: 70%;
+    left: 70%;
+    margin-left: 15%;
+}
+
+/* musica */
+
+audio{
+   background-color: brown;
+   flex-direction: row;
+    width: 100%;
+    margin-top:  40%;
+    justify-content: center;
+    
+}
+h1{ 
+    display: grid;
+    background-color: black;
+    background-position: center;
+    flex-direction: row;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    color:rgb(247, 244, 244);
+    letter-spacing: 5px;
+    margin:10%; 
+    min-height: 576px;
+    align-items:center;
+  
+    
+}
+
+fieldset{
+   
+    font-family: oswald;
+    background-color: black;
+    background-position: 25%;
+    color: rgb(241, 239, 239);
+    font-size: 35px;
+    width: 70%;
+    left: 50%;
+    margin-left: 8%;
+    text-align: center;
+    margin-top: 30%;
+}
+
+p {
+    display: flex;
+    background:rgb(8, 8, 8);
+    background-position: center;
+    flex-direction: row;
+    width: 70%;
+    left: 50%;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+    font-family: oswald;
+    color: rgba(223, 191, 191, 0.993);
+    letter-spacing: 10px;
+    font-size: 22px;
+    text-align:center;
+    padding: 50px 100px;
+}
+
+
+    
+.logo {
+    height: auto;
+    width: 800px;
+    margin: 20%;
+    display: inline;
+    background-position: 25%;
+    
+
+}
+
+/*footer*/ 
+
+#footer{
+    background-image: url("../image/flores\ footer.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(36, 39, 44);
+    font-size: 16px;
+    color: rgb(214, 214, 214);
+    padding: 5px;
+    width: 100vw;
+    text-align: justify;
+    justify-content: center;
+    margin-top: 30px;
+    position: absolute;
+}
+
+/**media querie**/
+@media only screen and (max-widht: 576px){
+    body {
+        flex-direction: column;
+        text-align: center;
+      
+    }
+    #container {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        height: 200px;
+       
+        
+
+    }
+    .container.cel .barbacoa .frascos .lanas  {
+        flex-direction: column;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    h1{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+ 
+    #footer {
+        flex-direction: column;
+        text-align: center;
+        text-align: center;
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+       position:absolute;
+       left:-0.5%;
+    }
+}
+
+
+
+    
+
